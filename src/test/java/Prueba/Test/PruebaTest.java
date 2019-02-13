@@ -16,7 +16,7 @@ class PruebaTest {
 				()-> assertEquals(3,3),
 				()->assertTrue(3>2));
 		
-		assertNotEquals(3, 3, "Error. Datos Iguales");
+		assertNotEquals(3, 4, "Error. Datos Iguales");
 		//fail("Not yet implemented");
 	}
 
